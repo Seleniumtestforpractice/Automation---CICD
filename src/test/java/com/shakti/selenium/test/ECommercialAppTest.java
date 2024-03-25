@@ -31,6 +31,7 @@ import com.shakti.selenium.basecomponent.BaseTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+//eCommercial Application.
 public class ECommercialAppTest extends BaseTest {
 	String PRODUCT_NAME = "ZARA COAT 3";
 	@Test(dataProvider = "getData",groups = {"purchase"})
