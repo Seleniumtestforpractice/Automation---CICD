@@ -1,0 +1,10 @@
+ 
+ How to run test cases using mvn command :
+ 
+ mvn test -PPurchase
+ 
+ How to set global parameter by using maven command :
+ 
+ mvn test -PErrorvalidation -Dbrowser
+ 
+ D : Input Parameter

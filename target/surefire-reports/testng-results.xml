@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-25T11:16:06 IST" name="Suite" finished-at="2024-03-25T11:16:38 IST" duration-ms="32128">
+    <groups>
+      <group name="purchase">
+        <method signature="ECommercialAppTest.submitOrder(java.util.HashMap)[pri:0, instance:com.shakti.selenium.test.ECommercialAppTest@29215f06]" name="submitOrder" class="com.shakti.selenium.test.ECommercialAppTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-03-25T11:16:06 IST" name="Submit Order Test" finished-at="2024-03-25T11:16:38 IST" duration-ms="32128">
+      <class name="com.shakti.selenium.test.ECommercialAppTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.shakti.selenium.test.ECommercialAppTest@29215f06]" started-at="2024-03-25T11:16:06 IST" name="launchApplication" finished-at="2024-03-25T11:16:18 IST" duration-ms="11514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:com.shakti.selenium.test.ECommercialAppTest@29215f06]" started-at="2024-03-25T11:16:18 IST" name="submitOrder" data-provider="getData" finished-at="2024-03-25T11:16:24 IST" duration-ms="5749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test1234, email=shakti@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.shakti.selenium.test.ECommercialAppTest@29215f06]" started-at="2024-03-25T11:16:24 IST" name="tearDown" finished-at="2024-03-25T11:16:24 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.shakti.selenium.test.ECommercialAppTest@29215f06]" started-at="2024-03-25T11:16:24 IST" name="launchApplication" finished-at="2024-03-25T11:16:26 IST" duration-ms="2402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:com.shakti.selenium.test.ECommercialAppTest@29215f06]" started-at="2024-03-25T11:16:26 IST" name="submitOrder" data-provider="getData" finished-at="2024-03-25T11:16:32 IST" duration-ms="5672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test1234, email=shakti@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.shakti.selenium.test.ECommercialAppTest@29215f06]" started-at="2024-03-25T11:16:32 IST" name="tearDown" finished-at="2024-03-25T11:16:32 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.shakti.selenium.test.ECommercialAppTest@29215f06]" started-at="2024-03-25T11:16:32 IST" name="launchApplication" finished-at="2024-03-25T11:16:36 IST" duration-ms="4259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistory()[pri:0, instance:com.shakti.selenium.test.ECommercialAppTest@29215f06]" started-at="2024-03-25T11:16:36 IST" name="orderHistory" finished-at="2024-03-25T11:16:38 IST" depends-on-methods="com.shakti.selenium.test.ECommercialAppTest.submitOrder" duration-ms="1447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.shakti.selenium.test.ECommercialAppTest@29215f06]" started-at="2024-03-25T11:16:38 IST" name="tearDown" finished-at="2024-03-25T11:16:38 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.shakti.selenium.test.ECommercialAppTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
